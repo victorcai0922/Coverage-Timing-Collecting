@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<!--要调度的对象 -->
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:cmd.properties</value>
+				<value>classpath:cmd2.properties</value>
+				<!--要是有多个配置文件，只需在这里继续添加即可 -->
+			</list>
+		</property>
+	</bean>
+    <!--第一个job -->
+	<bean id="job" class="com.emmatask.EmmaTask">
+		<property name="projectDirectory">
+			<value>${Emma.ProjectDirectory}</value>
+		</property>
+		<property name="coverageEcDirectory">
+			<value>${Emma.CoverageEcOutPutDirectory}</value>
+		</property>
+		<property name="coverageEcDirectoryFilename">
+			<value>${Emma.CoverageEcOutPutDirectoryFilename}</value>
+		</property>
+		<property name="reportOutputDir">
+			<value>${Emma.CoverageReportDirectory}</value>
+		</property>
+		<property name="remoteIp">
+			<value>${Emma.RemotePcIp}</value>
+		</property>
+		<property name="coverageEm">
+			<value>${Emma.CoverageEmDirectoryFilename}</value>
+		</property>
+		<property name="reportType">
+			<value>${Emma.ReportType}</value>
+		</property>
+		<property name="coverageFilename">
+			<value>${Emma.CoverageReportDirectoryFilename}</value>
+		</property>
+	</bean>
+
+    <!--第二个job -->
+	<bean id="job2" class="com.emmatask.EmmaTask">
+		<property name="projectDirectory">
+			<value>${Emma2.ProjectDirectory}</value>
+		</property>
+		<property name="coverageEcDirectory">
+			<value>${Emma2.CoverageEcOutPutDirectory}</value>
+		</property>
+		<property name="coverageEcDirectoryFilename">
+			<value>${Emma2.CoverageEcOutPutDirectoryFilename}</value>
+		</property>
+		<property name="reportOutputDir">
+			<value>${Emma2.CoverageReportDirectory}</value>
+		</property>
+		<property name="remoteIp">
+			<value>${Emma2.RemotePcIp}</value>
+		</property>
+		<property name="coverageEm">
+			<value>${Emma2.CoverageEmDirectoryFilename}</value>
+		</property>
+		<property name="reportType">
+			<value>${Emma2.ReportType}</value>
+		</property>
+		<property name="coverageFilename">
+			<value>${Emma2.CoverageReportDirectoryFilename}</value>
+		</property>
+	</bean>
+	
+	<!-- 定义第一个目标bean和bean中的方法 -->
+	<bean id="jobtask"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref local="job" />
+		</property>
+		<property name="targetMethod">
+			<value>collectAndGeneratorCoverageReport</value>
+		</property>
+	</bean>
+	<!-- 定义第二个目标bean和bean中的方法 -->
+	<bean id="jobtask2"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref local="job2" />
+		</property>
+		<property name="targetMethod">
+			<value>collectAndGeneratorCoverageReport</value>
+		</property>
+	</bean>
+	
+	<!-- 定义第一个任务触发的时间 -->
+	<bean id="cron" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="jobtask" />
+		</property>
+		<property name="cronExpression">
+			<value>${Emma.TaskTime}</value>
+		</property>
+	</bean>
+	
+	<!-- 定义第二个任务触发的时间 -->
+	<bean id="cron2" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="jobtask2" />
+		</property>
+		<property name="cronExpression">
+			<value>${Emma2.TaskTime}</value>
+		</property>
+	</bean>
+	
+	<!-- 总管理 -->
+	<bean id="startQuertz" lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref local="cron" />
+				<ref local="cron2" />
+			</list>
+		</property>
+	</bean>
+
+</beans>

@@ -1,0 +1,18 @@
+#对应项目名称,该字段暂时无用
+Emma.ProjectDirectory=F:\项目\保理
+#coverage.ec文件存放文件夹
+Emma.CoverageEcOutPutDirectory=F:\\TestFile
+#ec文件的命名
+Emma.CoverageEcOutPutDirectoryFilename=coverage.ec
+#report存放文件夹
+Emma.CoverageReportDirectory=F:\\TestFile
+#report文件名
+Emma.CoverageReportDirectoryFilename=coverage
+#需要收集的远程服务ip
+Emma.RemotePcIp=10.132.97.58
+#em文件存放位置
+Emma.CoverageEmDirectoryFilename=F:\\TestFile\\creditcore_coverage.em
+#report产生类型，可以支持xml,txt,html
+Emma.ReportType=html
+#定时执行时间cron表达式
+Emma.TaskTime=0 53 19 ? * *

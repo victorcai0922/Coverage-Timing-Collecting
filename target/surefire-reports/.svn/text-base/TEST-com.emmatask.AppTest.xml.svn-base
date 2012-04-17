@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="1" time="0.062" failures="0" name="com.emmatask.AppTest">
+  <properties>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="E:\Program Files\Java\jre1.5.0_06\bin" name="sun.boot.library.path"/>
+    <property value="1.5.0_06-b05" name="java.vm.version"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value=";" name="path.separator"/>
+    <property value="Java HotSpot(TM) Client VM" name="java.vm.name"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="CN" name="user.country"/>
+    <property value="Service Pack 3" name="sun.os.patch.level"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="F:\TestTools\EmmaTask" name="user.dir"/>
+    <property value="1.5.0_06-b05" name="java.runtime.version"/>
+    <property value="sun.awt.Win32GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="F:\TestTools\EmmaTask" name="basedir"/>
+    <property value="E:\Program Files\Java\jre1.5.0_06\lib\endorsed" name="java.endorsed.dirs"/>
+    <property value="x86" name="os.arch"/>
+    <property value="C:\DOCUME~1\CAIQIU~1\LOCALS~1\Temp\surefirebooter51422.jar" name="surefire.real.class.path"/>
+    <property value="C:\DOCUME~1\CAIQIU~1\LOCALS~1\Temp\" name="java.io.tmpdir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="" name="user.variant"/>
+    <property value="Windows XP" name="os.name"/>
+    <property value="GBK" name="sun.jnu.encoding"/>
+    <property value="E:\Program Files\Java\jre1.5.0_06\bin;.;C:\WINDOWS\system32;C:\WINDOWS;D:/Program Files/Java/jre6/bin/client;D:/Program Files/Java/jre6/bin;D:/Program Files/Java/jre6/lib/i386;D:\btrace\bin;D:\orl\bin;c:\Program Files\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;c:\Program Files\Intel\DMIX;D:\Program Files\Java\jdk1.6.0_24\bin;D:\Program Files\Java\jdk1.6.0_24\jre\bin;D:\Program Files\apache-ant-1.8.2\bin;D:\Program Files\apache-ant-1.8.2\lib;;D:\Program Files\Subversion\bin;D:\Program Files\MySQL\MySQL Server 5.0\bin;D:\Program Files\apache-maven-2.2.1\bin;F:\Android\tools;C:\Program Files\Windows Imaging\;D:\btrace\bin;d:\Program Files\SSH Communications Security\SSH Secure Shell;d:\Program Files\OpenVPN\bin" name="java.library.path"/>
+    <property value="F:\TestTools\EmmaTask\target\test-classes;F:\TestTools\EmmaTask\target\classes;C:\Documents and Settings\caiqiuliang\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\quartz-scheduler\quartz\1.7.3\quartz-1.7.3.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-core\3.0.0.RELEASE\spring-core-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-asm\3.0.0.RELEASE\spring-asm-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-expression\3.0.0.RELEASE\spring-expression-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-beans\3.0.0.RELEASE\spring-beans-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-aop\3.0.0.RELEASE\spring-aop-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-context\3.0.0.RELEASE\spring-context-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-context-support\3.0.0.RELEASE\spring-context-support-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-tx\3.0.0.RELEASE\spring-tx-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-jdbc\3.0.0.RELEASE\spring-jdbc-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-orm\3.0.0.RELEASE\spring-orm-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-oxm\3.0.0.RELEASE\spring-oxm-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-web\3.0.0.RELEASE\spring-web-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-webmvc\3.0.0.RELEASE\spring-webmvc-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\stax\stax\1.2.0\stax-1.2.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-webmvc-portlet\3.0.0.RELEASE\spring-webmvc-portlet-3.0.0.RELEASE.jar;" name="surefire.test.class.path"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="HotSpot Client Compiler" name="sun.management.compiler"/>
+    <property value="5.1" name="os.version"/>
+    <property value="C:\Documents and Settings\caiqiuliang" name="user.home"/>
+    <property value="" name="user.timezone"/>
+    <property value="sun.awt.windows.WPrinterJob" name="java.awt.printerjob"/>
+    <property value="GBK" name="file.encoding"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="caiqiuliang" name="user.name"/>
+    <property value="F:\TestTools\EmmaTask\target\test-classes;F:\TestTools\EmmaTask\target\classes;C:\Documents and Settings\caiqiuliang\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\quartz-scheduler\quartz\1.7.3\quartz-1.7.3.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-core\3.0.0.RELEASE\spring-core-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-asm\3.0.0.RELEASE\spring-asm-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-expression\3.0.0.RELEASE\spring-expression-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-beans\3.0.0.RELEASE\spring-beans-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-aop\3.0.0.RELEASE\spring-aop-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-context\3.0.0.RELEASE\spring-context-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-context-support\3.0.0.RELEASE\spring-context-support-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-tx\3.0.0.RELEASE\spring-tx-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-jdbc\3.0.0.RELEASE\spring-jdbc-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-orm\3.0.0.RELEASE\spring-orm-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-oxm\3.0.0.RELEASE\spring-oxm-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-web\3.0.0.RELEASE\spring-web-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-webmvc\3.0.0.RELEASE\spring-webmvc-3.0.0.RELEASE.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\stax\stax\1.2.0\stax-1.2.0.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Documents and Settings\caiqiuliang\.m2\repository\org\springframework\spring-webmvc-portlet\3.0.0.RELEASE\spring-webmvc-portlet-3.0.0.RELEASE.jar;" name="java.class.path"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="32" name="sun.arch.data.model"/>
+    <property value="E:\Program Files\Java\jre1.5.0_06" name="java.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="zh" name="user.language"/>
+    <property value="sun.awt.windows.WToolkit" name="awt.toolkit"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="1.5.0_06" name="java.version"/>
+    <property value="E:\Program Files\Java\jre1.5.0_06\lib\ext" name="java.ext.dirs"/>
+    <property value="E:\Program Files\Java\jre1.5.0_06\lib\rt.jar;E:\Program Files\Java\jre1.5.0_06\lib\i18n.jar;E:\Program Files\Java\jre1.5.0_06\lib\sunrsasign.jar;E:\Program Files\Java\jre1.5.0_06\lib\jsse.jar;E:\Program Files\Java\jre1.5.0_06\lib\jce.jar;E:\Program Files\Java\jre1.5.0_06\lib\charsets.jar;E:\Program Files\Java\jre1.5.0_06\classes" name="sun.boot.class.path"/>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="C:\Documents and Settings\caiqiuliang\.m2\repository" name="localRepository"/>
+    <property value="\" name="file.separator"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="windows" name="sun.desktop"/>
+    <property value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" name="sun.cpu.isalist"/>
+  </properties>
+  <testcase classname="com.emmatask.AppTest" time="0" name="testApp"/>
+</testsuite>

@@ -1,0 +1,37 @@
+10
+
+dir
+3
+https://coverage-timing-collect.googlecode.com/svn/trunk/target
+https://coverage-timing-collect.googlecode.com/svn
+
+
+
+2011-08-25T12:41:24.965235Z
+2
+victorcai0922
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7946667c-eb40-9bba-7022-d006deff61ff
+
+classes
+dir
+
+maven-archiver
+dir
+
+surefire-reports
+dir
+

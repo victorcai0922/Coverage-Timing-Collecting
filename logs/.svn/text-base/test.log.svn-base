@@ -1,0 +1,638 @@
+2011-08-25 16:51:42,998 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@913750: startup date [Thu Aug 25 16:51:42 CST 2011]; root of context hierarchy
+2011-08-25 16:51:43,327 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 16:51:43,717 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 16:51:44,342 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 16:51:44,342 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 16:51:44,342 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 16:51:44,342 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 16:51:44,342 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 16:51:44,358 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@18f6235
+2011-08-25 16:51:44,436 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 16:51:44,436 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 16:51:48,936 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 16:52:27,404 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 16:52:27 CST 2011]; root of context hierarchy
+2011-08-25 16:52:27,451 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 16:52:27,529 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ab853b: defining beans [job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 16:52:27,639 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 16:52:27,639 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 16:52:27,639 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 16:52:27,639 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 16:52:27,639 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 16:52:27,639 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@14da8f4
+2011-08-25 16:52:27,654 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 16:52:27,654 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 16:52:28,748 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 16:55:29,231 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 16:55:29 CST 2011]; root of context hierarchy
+2011-08-25 16:55:29,278 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 16:55:29,419 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from URL [file:/F:/TestTools/EmmaTask/target/classes/cmd.properties]
+2011-08-25 16:55:29,434 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ab853b: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 16:55:29,513 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 16:55:29,513 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 16:55:29,513 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 16:55:29,513 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 16:55:29,513 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 16:55:29,513 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@12a0f6c
+2011-08-25 16:55:29,528 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 16:55:29,528 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 16:55:30,669 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:10:44,585 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19bd03e: startup date [Thu Aug 25 17:10:44 CST 2011]; root of context hierarchy
+2011-08-25 17:10:44,632 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:10:44,741 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:10:44,757 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:10:44,835 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 17:10:44,835 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 17:10:44,835 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 17:10:44,835 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 17:10:44,835 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 17:10:44,835 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@134a7d8
+2011-08-25 17:10:44,850 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 17:10:44,850 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 17:10:45,866 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:11:10,382 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19bd03e: startup date [Thu Aug 25 17:11:10 CST 2011]; root of context hierarchy
+2011-08-25 17:11:10,428 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:11:10,538 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:11:10,553 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:11:10,616 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 17:11:10,616 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 17:11:10,632 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 17:11:10,632 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 17:11:10,632 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 17:11:10,632 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@134a7d8
+2011-08-25 17:11:10,632 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 17:11:10,632 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 17:11:11,772 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:12:00,022 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 17:12:00,022 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:TestFile\coverage.ec
+2011-08-25 17:12:00,459 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:TestFile\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestTools\EmmaTask\TestFile\coverage.ec] {in 78 ms}
+EMMA: coverage.get: command completed in 156 ms
+EMMA: control command sequence complete
+
+2011-08-25 17:12:00,459 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 17:12:00,459 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r null -in F:TestFile\*.em,F:TestFile\*.ec -Dreport.html.out.file=F:TestFile\coverage.html
+2011-08-25 17:12:00,897 INFO [com.emmatask.EmmaTask] - The output of command: [EMMA v2.1, build 5320 (stable)]
+emma report: no report generator class found for type [null]
+
+2011-08-25 17:14:07,287 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 17:14:07 CST 2011]; root of context hierarchy
+2011-08-25 17:14:07,334 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:14:07,443 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:14:07,459 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ab853b: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:14:07,537 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 17:14:07,537 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 17:14:07,537 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 17:14:07,537 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 17:14:07,537 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 17:14:07,537 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5a9de6
+2011-08-25 17:14:07,537 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 17:14:07,537 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 17:14:08,615 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:14:28,208 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19bd03e: startup date [Thu Aug 25 17:14:28 CST 2011]; root of context hierarchy
+2011-08-25 17:14:28,271 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:14:28,380 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:14:28,396 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@11c8a71: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:14:28,474 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 17:14:28,474 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 17:14:28,474 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 17:14:28,474 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 17:14:28,474 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 17:14:28,474 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1f78ef1
+2011-08-25 17:14:28,474 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 17:14:28,474 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 17:14:29,537 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:15:00,021 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 17:15:00,021 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:TestFile\coverage.ec
+2011-08-25 17:15:00,193 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:TestFile\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestTools\EmmaTask\TestFile\coverage.ec] {in 16 ms}
+EMMA: coverage.get: command completed in 63 ms
+EMMA: control command sequence complete
+
+2011-08-25 17:15:00,193 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 17:15:00,193 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:TestFile\*.em,F:TestFile\*.ec -Dreport.html.out.file=F:TestFile\coverage.html
+2011-08-25 17:15:00,396 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+java.io.IOException: input file does not exist: [F:\TestTools\EmmaTask\TestFile\*.em]
+	at com.vladium.emma.data.DataFactory.mergeload(DataFactory.java:340)
+	at com.vladium.emma.data.DataFactory.load(DataFactory.java:56)
+	at com.vladium.emma.report.ReportProcessor._run(ReportProcessor.java:176)
+	at com.vladium.emma.Processor.run(Processor.java:88)
+	at com.vladium.emma.report.reportCommand.run(reportCommand.java:139)
+	at emma.main(emma.java:50)
+
+2011-08-25 17:17:39,863 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 17:17:39 CST 2011]; root of context hierarchy
+2011-08-25 17:17:39,910 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:17:40,020 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:17:40,020 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:17:40,098 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 17:17:40,098 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 17:17:40,098 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 17:17:40,098 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 17:17:40,098 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 17:17:40,113 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@134a7d8
+2011-08-25 17:17:40,113 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 17:17:40,113 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 17:17:41,207 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:18:00,004 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 17:18:00,004 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\coverage.ec
+2011-08-25 17:18:00,207 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\coverage.ec] {in 31 ms}
+EMMA: coverage.get: command completed in 78 ms
+EMMA: control command sequence complete
+
+2011-08-25 17:18:00,207 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 17:18:00,207 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\*.em,F:\TestFile\*.ec -Dreport.html.out.file=F:\TestFile\coverage.html
+2011-08-25 17:18:00,348 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+java.io.IOException: input file does not exist: [F:\TestFile\*.em]
+	at com.vladium.emma.data.DataFactory.mergeload(DataFactory.java:340)
+	at com.vladium.emma.data.DataFactory.load(DataFactory.java:56)
+	at com.vladium.emma.report.ReportProcessor._run(ReportProcessor.java:176)
+	at com.vladium.emma.Processor.run(Processor.java:88)
+	at com.vladium.emma.report.reportCommand.run(reportCommand.java:139)
+	at emma.main(emma.java:50)
+
+2011-08-25 17:35:10,704 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 17:35:10 CST 2011]; root of context hierarchy
+2011-08-25 17:35:10,751 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:35:10,861 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:35:10,876 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ab853b: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:36:40,255 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@913750: startup date [Thu Aug 25 17:36:40 CST 2011]; root of context hierarchy
+2011-08-25 17:36:40,302 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:36:40,412 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:36:40,412 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:36:40,490 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 17:36:40,490 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 17:36:40,490 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 17:36:40,490 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 17:36:40,490 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 17:36:40,490 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@134a7d8
+2011-08-25 17:36:40,505 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 17:36:40,505 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 17:36:41,630 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:36:58,521 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 17:36:58 CST 2011]; root of context hierarchy
+2011-08-25 17:36:58,568 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:36:58,693 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:36:58,693 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:36:58,771 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 17:36:58,771 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 17:36:58,787 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 17:36:58,787 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 17:36:58,787 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 17:36:58,787 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@134a7d8
+2011-08-25 17:36:58,787 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 17:36:58,787 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 17:36:59,896 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:37:00,006 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 17:37:00,006 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\coverage.html
+2011-08-25 17:37:00,209 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\coverage.html,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\coverage.html] {in 31 ms}
+EMMA: coverage.get: command completed in 78 ms
+EMMA: control command sequence complete
+
+2011-08-25 17:37:00,209 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 17:37:00,209 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\coverage.html -Dreport.html.out.file=F:\TestFile\coverage.html
+2011-08-25 17:37:01,756 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 219 ms
+EMMA: writing [html] report to [F:\TestFile\coverage.html] ...
+
+2011-08-25 17:38:55,274 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 17:38:55 CST 2011]; root of context hierarchy
+2011-08-25 17:38:55,320 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 17:38:55,430 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 17:38:55,445 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 17:38:55,508 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 17:38:55,508 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 17:38:55,508 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 17:38:55,508 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 17:38:55,508 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 17:38:55,508 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@134a7d8
+2011-08-25 17:38:55,524 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 17:38:55,524 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 17:38:56,508 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 17:39:00,008 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 17:39:00,008 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\coverage.html
+2011-08-25 18:31:27,792 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19bd03e: startup date [Thu Aug 25 18:31:27 CST 2011]; root of context hierarchy
+2011-08-25 18:31:27,838 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 18:31:27,963 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 18:31:27,979 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 18:31:28,057 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 18:31:28,057 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 18:31:28,057 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 18:31:28,057 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 18:31:28,057 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 18:31:28,057 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1f78ef1
+2011-08-25 18:31:28,073 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 18:31:28,073 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 18:31:29,651 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 18:32:00,026 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 18:32:00,057 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\2011-08-25 18:32:00\coverage.ec
+2011-08-25 18:32:00,651 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\2011-08-25,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\2011-08-25] {in 78 ms}
+EMMA: coverage.get: command completed in 188 ms
+EMMA: control command sequence complete
+
+2011-08-25 18:32:00,651 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 18:32:00,651 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\2011-08-25 18:32:00\coverage.ec -Dreport.html.out.file=F:\TestFile\2011-08-25 18:32:00\coverage.html
+2011-08-25 18:32:02,494 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 204 ms
+EMMA: writing [html] report to [F:\TestTools\EmmaTask\coverage\index.html] ...
+
+2011-08-25 18:34:32,790 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 18:34:32 CST 2011]; root of context hierarchy
+2011-08-25 18:34:32,837 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 18:34:32,947 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 18:34:32,947 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b82368: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 18:34:33,040 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 18:34:33,040 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 18:34:33,040 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 18:34:33,040 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 18:34:33,040 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 18:34:33,040 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@134a7d8
+2011-08-25 18:34:33,040 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 18:34:33,040 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 18:34:34,118 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 18:34:52,290 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 18:34:52 CST 2011]; root of context hierarchy
+2011-08-25 18:34:52,337 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 18:34:52,446 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 18:34:52,462 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ab853b: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 18:34:52,540 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 18:34:52,540 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 18:34:52,540 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 18:34:52,540 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 18:34:52,540 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 18:34:52,540 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@134a7d8
+2011-08-25 18:34:52,540 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 18:34:52,540 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 18:34:53,618 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 18:35:00,009 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 18:35:00,009 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\2011-08-25 18:35:00\coverage.ec
+2011-08-25 18:35:00,196 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\2011-08-25,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\2011-08-25] {in 0 ms}
+EMMA: coverage.get: command completed in 63 ms
+EMMA: control command sequence complete
+
+2011-08-25 18:35:00,196 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 18:35:00,196 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\2011-08-25 18:35:00\coverage.ec -Dreport.html.out.file=F:\TestFile\2011-08-25 18:35:00\coverage.html
+2011-08-25 18:35:01,540 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 110 ms
+EMMA: writing [html] report to [F:\TestTools\EmmaTask\coverage\index.html] ...
+
+2011-08-25 18:36:26,649 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 18:36:26 CST 2011]; root of context hierarchy
+2011-08-25 18:36:26,696 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 18:36:26,821 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 18:36:26,821 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ab853b: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 18:36:26,899 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 18:36:26,899 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 18:36:26,899 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 18:36:26,899 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 18:36:26,899 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 18:36:26,899 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5a9de6
+2011-08-25 18:36:26,899 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 18:36:26,899 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 18:36:27,977 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 18:37:00,008 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 18:37:00,008 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\2011-08-25 18:37:00\coverage.ec
+2011-08-25 18:37:00,211 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\2011-08-25,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\2011-08-25] {in 15 ms}
+EMMA: coverage.get: command completed in 62 ms
+EMMA: control command sequence complete
+
+2011-08-25 18:37:00,211 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 18:37:00,211 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\2011-08-25 18:37:00\coverage.ec -Dreport.html.out.file=F:\TestFile\2011-08-25 18:37:00\coverage.html
+2011-08-25 18:37:01,446 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 110 ms
+EMMA: writing [html] report to [F:\TestTools\EmmaTask\coverage\index.html] ...
+
+2011-08-25 18:39:52,074 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 18:39:52 CST 2011]; root of context hierarchy
+2011-08-25 18:39:52,121 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 18:39:52,230 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 18:39:52,246 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ab853b: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 18:39:52,324 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 18:39:52,324 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 18:39:52,324 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 18:39:52,324 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 18:39:52,324 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 18:39:52,324 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5a9de6
+2011-08-25 18:39:52,324 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 18:39:52,324 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 18:39:53,386 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 18:40:00,012 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 18:40:00,012 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\2011-08-25 18:40:00\coverage.ec
+2011-08-25 18:40:09,403 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\2011-08-25,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\2011-08-25] {in 15 ms}
+EMMA: coverage.get: command completed in 9219 ms
+EMMA: control command sequence complete
+
+2011-08-25 18:40:09,403 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 18:40:09,403 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\2011-08-25 18:40:00\coverage.ec -Dreport.html.out.file=F:\TestFile\2011-08-25 18:40:00\coverage.html
+2011-08-25 18:40:10,622 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 110 ms
+EMMA: writing [html] report to [F:\TestTools\EmmaTask\coverage\index.html] ...
+
+2011-08-25 18:41:16,658 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@84abc9: startup date [Thu Aug 25 18:41:16 CST 2011]; root of context hierarchy
+2011-08-25 18:41:16,705 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 18:41:16,830 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 18:41:16,845 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@11c8a71: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 18:41:16,939 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 18:41:16,939 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 18:41:16,939 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 18:41:16,939 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 18:41:16,939 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 18:41:16,939 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1f78ef1
+2011-08-25 18:41:16,939 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 18:41:16,939 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 18:41:18,002 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 18:42:00,005 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 18:42:00,005 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\2011-08-25 18:42:00\coverage.ec
+2011-08-25 18:42:00,192 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\2011-08-25,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\2011-08-25] {in 15 ms}
+EMMA: coverage.get: command completed in 62 ms
+EMMA: control command sequence complete
+
+2011-08-25 18:42:00,192 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 18:42:00,192 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\2011-08-25 18:42:00\coverage.ec -Dreport.html.out.file=F:\TestFile\2011-08-25 18:42:00\coverage.html
+2011-08-25 18:42:01,458 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 109 ms
+EMMA: writing [html] report to [F:\TestTools\EmmaTask\coverage\index.html] ...
+
+2011-08-25 19:00:46,786 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 19:00:46 CST 2011]; root of context hierarchy
+2011-08-25 19:00:46,832 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:00:46,942 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:00:46,957 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ab853b: defining beans [propertyConfigurer,job,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:00:47,036 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:00:47,036 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:00:47,036 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:00:47,036 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:00:47,036 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:00:47,036 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@5a9de6
+2011-08-25 19:00:47,036 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:00:47,036 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:00:48,207 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:01:00,004 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:01:00,035 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825190100\coverage.ec
+2011-08-25 19:01:00,504 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825190100\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825190100\coverage.ec] {in 31 ms}
+EMMA: coverage.get: command completed in 140 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:01:00,520 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:01:00,520 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825190100\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825190100\coverage.html
+2011-08-25 19:01:02,192 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 188 ms
+EMMA: writing [html] report to [F:\TestFile\20110825190100\coverage.html] ...
+
+2011-08-25 19:13:31,249 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19bd03e: startup date [Thu Aug 25 19:13:31 CST 2011]; root of context hierarchy
+2011-08-25 19:13:31,296 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:13:31,421 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:13:31,421 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@fc9944: defining beans [propertyConfigurer,job,job2,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:13:31,499 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:13:31,499 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:13:31,499 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:13:31,499 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:13:31,499 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:13:31,515 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@13ad085
+2011-08-25 19:13:31,515 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:13:31,515 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:13:36,202 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:15:43,311 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 19:15:43 CST 2011]; root of context hierarchy
+2011-08-25 19:15:43,358 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:15:43,467 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:15:43,467 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd2.properties]
+2011-08-25 19:15:43,483 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15cda3f: defining beans [propertyConfigurer,job,job2,jobtask,cron,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:15:43,561 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:15:43,561 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:15:43,561 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:15:43,561 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:15:43,561 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:15:43,561 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@13ad085
+2011-08-25 19:15:43,561 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:15:43,561 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:15:44,655 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:16:00,014 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:16:00,030 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825191600\coverage.ec
+2011-08-25 19:16:00,217 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825191600\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825191600\coverage.ec] {in 15 ms}
+EMMA: coverage.get: command completed in 62 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:16:00,217 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:16:00,217 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825191600\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825191600\coverage.html
+2011-08-25 19:16:01,561 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 94 ms
+EMMA: writing [html] report to [F:\TestFile\20110825191600\coverage.html] ...
+
+2011-08-25 19:20:52,575 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 19:20:52 CST 2011]; root of context hierarchy
+2011-08-25 19:20:52,622 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:20:52,747 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:20:52,747 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd2.properties]
+2011-08-25 19:20:52,747 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15cda3f: defining beans [propertyConfigurer,job,job2,jobtask,jobtask2,cron,cron2,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:20:52,825 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:20:52,825 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:20:52,840 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:20:52,840 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:20:52,840 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:20:52,840 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1d6776d
+2011-08-25 19:20:52,840 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:20:52,840 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:20:53,934 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:23:20,027 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 19:23:20 CST 2011]; root of context hierarchy
+2011-08-25 19:23:20,074 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:23:20,183 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:23:20,183 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd2.properties]
+2011-08-25 19:23:20,199 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c53dce: defining beans [propertyConfigurer,job,job2,jobtask,jobtask2,cron,cron2,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:23:20,277 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:23:20,277 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:23:20,277 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:23:20,277 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:23:20,277 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:23:20,277 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1c9a690
+2011-08-25 19:23:20,292 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:23:20,292 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:23:21,386 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:25:00,011 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:25:00,011 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:25:00,026 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825192500\coverage.ec
+2011-08-25 19:25:00,026 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825192500\coverage.ec
+2011-08-25 19:25:00,245 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825192500\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825192500\coverage.ec] {in 0 ms}
+EMMA: coverage.get: command completed in 63 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:25:00,245 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:25:00,245 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825192500\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825192500\coverage.html
+2011-08-25 19:25:00,245 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825192500\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825192500\coverage.ec] {in 15 ms}
+EMMA: coverage.get: command completed in 62 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:25:00,245 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:25:00,245 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825192500\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825192500\coverage.html
+2011-08-25 19:25:01,886 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 156 ms
+EMMA: writing [html] report to [F:\TestFile\20110825192500\coverage.html] ...
+
+2011-08-25 19:25:01,886 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 110 ms
+EMMA: writing [html] report to [F:\TestFile\20110825192500\coverage.html] ...
+
+2011-08-25 19:40:13,848 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@913750: startup date [Thu Aug 25 19:40:13 CST 2011]; root of context hierarchy
+2011-08-25 19:40:13,895 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:40:14,020 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:40:14,020 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd2.properties]
+2011-08-25 19:40:14,020 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c53dce: defining beans [propertyConfigurer,job,job2,jobtask,jobtask2,cron,cron2,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:40:14,098 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:40:14,098 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:40:14,098 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:40:14,098 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:40:14,098 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:40:14,098 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1c9a690
+2011-08-25 19:40:14,098 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:40:14,098 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:40:15,255 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:40:38,739 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 19:40:38 CST 2011]; root of context hierarchy
+2011-08-25 19:40:38,786 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:40:38,895 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:40:38,895 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd2.properties]
+2011-08-25 19:40:38,895 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c53dce: defining beans [propertyConfigurer,job,job2,jobtask,jobtask2,cron,cron2,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:40:38,973 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:40:38,973 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:40:38,973 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:40:38,973 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:40:38,973 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:40:38,973 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1c9a690
+2011-08-25 19:40:38,989 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:40:38,989 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:40:40,051 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:41:00,004 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:41:00,004 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:41:00,036 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825194100\coverage.ec
+2011-08-25 19:41:00,036 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825194100\coverage.ec
+2011-08-25 19:41:00,270 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825194100\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825194100\coverage.ec] {in 16 ms}
+EMMA: coverage.get: command completed in 78 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:41:00,270 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825194100\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825194100\coverage.ec] {in 16 ms}
+EMMA: coverage.get: command completed in 78 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:41:00,270 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:41:00,270 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:41:00,270 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825194100\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825194100\coverage.html
+2011-08-25 19:41:00,270 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825194100\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825194100\coverage.html
+2011-08-25 19:41:02,020 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 125 ms
+EMMA: writing [html] report to [F:\TestFile\20110825194100\coverage.html] ...
+
+2011-08-25 19:41:02,020 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 141 ms
+EMMA: writing [html] report to [F:\TestFile\20110825194100\coverage.html] ...
+
+2011-08-25 19:49:07,878 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@84abc9: startup date [Thu Aug 25 19:49:07 CST 2011]; root of context hierarchy
+2011-08-25 19:49:07,924 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:49:08,049 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:49:08,049 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd2.properties]
+2011-08-25 19:49:08,049 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@fc9944: defining beans [propertyConfigurer,job,job2,jobtask,jobtask2,cron,cron2,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:49:08,128 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:49:08,128 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:49:08,128 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:49:08,128 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:49:08,128 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:49:08,128 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@13ad085
+2011-08-25 19:49:08,143 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:49:08,143 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:49:09,268 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:49:39,831 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 19:49:39 CST 2011]; root of context hierarchy
+2011-08-25 19:49:39,893 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:49:40,003 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:49:40,018 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd2.properties]
+2011-08-25 19:49:40,018 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15cda3f: defining beans [propertyConfigurer,job,job2,jobtask,jobtask2,cron,cron2,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:49:40,097 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:49:40,097 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:49:40,097 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:49:40,097 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:49:40,097 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:49:40,097 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1d6776d
+2011-08-25 19:49:40,097 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:49:40,097 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:49:41,222 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:50:00,019 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:50:00,019 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:50:00,472 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825195000\coverage.ec
+2011-08-25 19:50:00,519 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile1\20110825195000\coverage.ec
+2011-08-25 19:50:00,769 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825195000\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825195000\coverage.ec] {in 32 ms}
+EMMA: coverage.get: command completed in 94 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:50:00,769 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:50:00,769 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825195000\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825195000\coverage.html
+2011-08-25 19:50:00,769 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile1\20110825195000\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile1\20110825195000\coverage.ec] {in 32 ms}
+EMMA: coverage.get: command completed in 79 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:50:00,769 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:50:00,769 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile2\creditcore_coverage.em,F:\TestFile1\20110825195000\coverage.ec -Dreport.html.out.file=F:\TestFile1\20110825195000\coverage.html
+2011-08-25 19:50:06,300 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 172 ms
+EMMA: writing [html] report to [F:\TestFile\20110825195000\coverage.html] ...
+
+2011-08-25 19:50:06,300 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 110 ms
+EMMA: writing [html] report to [F:\TestFile1\20110825195000\coverage.html] ...
+
+2011-08-25 19:52:20,254 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1c672d0: startup date [Thu Aug 25 19:52:20 CST 2011]; root of context hierarchy
+2011-08-25 19:52:20,301 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [ApplicationContext.xml]
+2011-08-25 19:52:20,426 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd.properties]
+2011-08-25 19:52:20,426 INFO [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [cmd2.properties]
+2011-08-25 19:52:20,426 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@c53dce: defining beans [propertyConfigurer,job,job2,jobtask,jobtask2,cron,cron2,org.springframework.scheduling.quartz.SchedulerFactoryBean#0]; root of factory hierarchy
+2011-08-25 19:52:20,504 INFO [org.quartz.core.SchedulerSignalerImpl] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2011-08-25 19:52:20,504 INFO [org.quartz.core.QuartzScheduler] - Quartz Scheduler v.1.7.3 created.
+2011-08-25 19:52:20,504 INFO [org.quartz.simpl.RAMJobStore] - RAMJobStore initialized.
+2011-08-25 19:52:20,504 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler 'org.springframework.scheduling.quartz.SchedulerFactoryBean#0' initialized from an externally provided properties instance.
+2011-08-25 19:52:20,504 INFO [org.quartz.impl.StdSchedulerFactory] - Quartz scheduler version: 1.7.3
+2011-08-25 19:52:20,504 INFO [org.quartz.core.QuartzScheduler] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1c9a690
+2011-08-25 19:52:20,519 INFO [org.springframework.scheduling.quartz.SchedulerFactoryBean] - Starting Quartz Scheduler now
+2011-08-25 19:52:20,519 INFO [org.quartz.core.QuartzScheduler] - Scheduler org.springframework.scheduling.quartz.SchedulerFactoryBean#0_$_NON_CLUSTERED started.
+2011-08-25 19:52:21,598 INFO [org.quartz.utils.UpdateChecker] - New update(s) found: 1.8.5 [http://www.terracotta.org/kit/reflector?kitID=default&pageID=QuartzChangeLog]
+2011-08-25 19:53:00,004 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:53:00,051 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825195300\coverage.ec
+2011-08-25 19:53:00,222 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825195300\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825195300\coverage.ec] {in 15 ms}
+EMMA: coverage.get: command completed in 62 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:53:00,222 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:53:00,222 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825195300\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825195300\coverage.html
+2011-08-25 19:53:01,566 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 110 ms
+EMMA: writing [html] report to [F:\TestFile\20110825195300\coverage.html] ...
+
+2011-08-25 19:54:00,003 INFO [com.emmatask.EmmaTask] - start collecting the coverage info!
+2011-08-25 19:54:00,035 INFO [com.emmatask.EmmaTask] - start execute command: java emma ctl -connect 10.132.97.58:47653 -command coverage.get,F:\TestFile\20110825195400\coverage.ec
+2011-08-25 19:54:00,206 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing control command sequence ...
+EMMA: executing [coverage.get (F:\TestFile\20110825195400\coverage.ec,true,true)] ...
+EMMA: coverage.get: local copy of coverage data merged into [F:\TestFile\20110825195400\coverage.ec] {in 15 ms}
+EMMA: coverage.get: command completed in 62 ms
+EMMA: control command sequence complete
+
+2011-08-25 19:54:00,206 INFO [com.emmatask.EmmaTask] - start generator coverage report!
+2011-08-25 19:54:00,206 INFO [com.emmatask.EmmaTask] - start execute command: java emma report -r html -in F:\TestFile\creditcore_coverage.em,F:\TestFile\20110825195400\coverage.ec -Dreport.html.out.file=F:\TestFile\20110825195400\coverage.html
+2011-08-25 19:54:01,550 INFO [com.emmatask.EmmaTask] - The output of command: EMMA: processing input files ...
+EMMA: 2 file(s) read and merged in 110 ms
+EMMA: writing [html] report to [F:\TestFile\20110825195400\coverage.html] ...
+
