@@ -1,0 +1,1 @@
+This project is for the java code coverage collection, I took use of emma,spring and quartz developing a framework for batch collecting the code coverage after the unit testing and integration testing on the remote server.
